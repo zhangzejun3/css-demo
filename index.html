@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TaiChi</title>
+    <style>
+        .taiChi{
+            background:#fff;
+            width:48px;
+            height:96px;
+            border-color:black;
+            border-style:solid;
+            border-width:2px 50px 2px 2px;
+            border-radius:100%;
+            position:relative;
+        }
+
+        .taiChi:before{
+            content:"";
+            position:absolute;
+            width:12px;
+            height:12px;
+            background: #000;
+            border:18px solid white;
+            top:0;
+            left:50%;
+            border-radius:100%;
+        }
+
+        .taiChi:after{
+            content:"";
+            position:absolute;
+            width:12px;
+            height:12px;
+            background:#fff;
+            border:18px solid black;
+            left:50%;
+            bottom:0;
+            border-radius:100%;
+        }
+    </style>
+</head>
+<body>
+<div class="taiChi"></div>
+</body>
+</html>
