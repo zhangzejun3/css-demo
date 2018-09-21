@@ -1,46 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>TaiChi</title>
-    <style>
-        .taiChi{
-            background:#fff;
-            width:48px;
-            height:96px;
-            border-color:black;
-            border-style:solid;
-            border-width:2px 50px 2px 2px;
-            border-radius:100%;
-            position:relative;
-        }
-
-        .taiChi:before{
-            content:"";
-            position:absolute;
-            width:12px;
-            height:12px;
-            background: #000;
-            border:18px solid white;
-            top:0;
-            left:50%;
-            border-radius:100%;
-        }
-
-        .taiChi:after{
-            content:"";
-            position:absolute;
-            width:12px;
-            height:12px;
-            background:#fff;
-            border:18px solid black;
-            left:50%;
-            bottom:0;
-            border-radius:100%;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .dad{
+      border: 1px solid black;
+      display: flex;
+      background: #ddd;
+    }
+    .son{
+      width: 100px;
+      height: 50px;
+      background: #fff;
+      margin: 10px;
+    }
+  </style>
 </head>
 <body>
-<div class="taiChi"></div>
+  <div class="dad">
+    <div class="son son1">1</div>
+    <div class="son son2">2</div>
+  </div>
 </body>
 </html>
